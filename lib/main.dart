@@ -15,7 +15,11 @@ class FlutterPortfolio extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.interTextTheme(
           Theme.of(context).textTheme.copyWith(
-                bodyText2: TextStyle(fontWeight: FontWeight.w700, fontSize: 14),
+                bodyText2: TextStyle(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 14,
+                  color: Color(0xFF040404),
+                ),
               ),
         ),
       ),
